@@ -1,0 +1,24 @@
+
+conda create -n flaskenv python=3.8
+
+conda activate flaskenv
+#in requirements.txt 
+Flask
+SQLAlchemy
+Flask-SQLAlchemy
+pytest
+
+pip install -r requirements.txt
+
+create file
+appv1.py
+python appv1.py in terminal
+
+1. conda create -n flaskenv python=3.8
+ 2. conda activate flaskenv
+3. Create a flask_projects folder and in that folder create todo_app
+4. Download file from slack and put it in todo_app
+5. Open in VS code and you’ll see nothing besides the text
+6. Make a folder called templates and under it make a base.html file
+7. Create apps.py file
+8. Create  appv1.py file ( If you run the server via the command “python appv1.py”, you’ll see a hi there)
