@@ -22,3 +22,21 @@ python appv1.py in terminal
 6. Make a folder called templates and under it make a base.html file
 7. Create apps.py file
 8. Create  appv1.py file ( If you run the server via the command “python appv1.py”, you’ll see a hi there)
+
+
+
+#in github setting, secrets, add in docker user and pass.
+
+
+#some docker notes
+#in todo_app
+
+
+pip install -U flask==1.1.2
+
+
+
+docker image build -t todo_app .
+
+#to run it with docker
+docker run -p 5000:5000 -d todo_app
