@@ -23,6 +23,22 @@ python appv1.py in terminal
 7. Create apps.py file
 8. Create  appv1.py file ( If you run the server via the command “python appv1.py”, you’ll see a hi there)
 
+#must have all this 
+#for window not python -m just pip install
+python -m pip install Flask
+python -m pip install SQLAlchemy
+python -m pip install flask_migrate
+python -m pip install flask_login
+python -m pip install flask_wtf
+python -m pip install email_validator
+python -m pip install pillow
+python -m pip install Flask-SQLAlchemy
+python -m pip install pytest
+
+//create yaml file and add secretes
+
+#flask blog: create new py3 environment (python==3.7)
+pip install -r requirements.txt
 
 
 #in github setting, secrets, add in docker user and pass.
@@ -40,3 +56,8 @@ docker image build -t todo_app .
 
 #to run it with docker
 docker run -p 5000:5000 -d todo_app
+
+
+
+
+
